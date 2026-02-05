@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Source Serif 4";
+  --font-body: "Inter";
+}
+
+body {
+  @apply bg-sand text-ink font-body;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-6;
+}
